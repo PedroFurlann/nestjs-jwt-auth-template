@@ -5,7 +5,7 @@ import { EnvService } from '../env/env.service';
 import { z } from 'zod';
 
 const tokenPayloadSchema = z.object({
-  sub: z.string().uuid(),
+  sub: z.string(),
 });
 
 export type UserPayload = z.infer<typeof tokenPayloadSchema>;
