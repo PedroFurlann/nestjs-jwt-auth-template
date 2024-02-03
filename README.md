@@ -4,6 +4,8 @@
 
 ## Starter Passport-JWT authentication template for NestJS
 
+<img src="https://raw.githubusercontent.com/PedroFurlann/nestjs-jwt-auth-template/main/public/Captura%20de%20tela%20de%202024-02-03%2014-10-49(1).jpg?token=GHSAT0AAAAAACHDLQDL266WUVY6G4Z2YS6MZN6PB5A" />
+
 ### Install Dependencies
 
 Install [Nestjs CLI](https://docs.nestjs.com/cli/usages)
