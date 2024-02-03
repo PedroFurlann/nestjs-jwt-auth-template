@@ -4,7 +4,7 @@ import { Test } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import { AuthModule } from './auth.module';
 
-describe('Generate Access token', () => {
+describe('Generate access token', () => {
   let authService: AuthService;
   let app: INestApplication;
 
@@ -20,7 +20,7 @@ describe('Generate Access token', () => {
     await app.init();
   });
 
-  it('should be able to generate and verify jwt access token', async () => {
+  it('should be able to generate jwt access token', async () => {
     const accessToken = await authService.generateAccessToken({
       sub: 'Test id',
     });
